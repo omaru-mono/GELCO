@@ -17,12 +17,12 @@ body {
 	margin: 0px;
 	padding: 0px;
 	-webkit-text-size-adjust: none;
-	color: #fff;	/*全体の文字色*/
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
-	font-size: 14px;	/*文字サイズ*/
-	line-height: 2;		/*行間*/
-	background: #000;	/*背景色（古いブラウザ用）*/
-	background: radial-gradient(500px at center top,#434343,#000);	/*半径500pxの円形グラデ、中央・上部に配置。円の中心色#a29376から#544c3dに向かったグラデーション。*/
+	color: #fff; /*全体の文字色*/
+	font-family: "Yu Gothic", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; /*フォント種類*/
+	font-size: 14px; /*文字サイズ*/
+	line-height: 2; /*行間*/
+	background: #000; /*背景色（古いブラウザ用）*/
+	background: radial-gradient(500px at center top,#434343,#000); /*半径500pxの円形グラデ、中央・上部に配置。円の中心色#a29376から#544c3dに向かったグラデーション。*/
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,input,textarea,select {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
 ul {list-style-type: none;}
@@ -111,13 +111,13 @@ header #logo img {
 /*コンテンツのh2タグの設定*/
 #contents h2 {
 	clear: both;margin-bottom: 20px;
-	font-size: 16px;		/*文字サイズ*/
-	color: #fff;			/*文字色*/
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;		/*文字サイズ*/
 	padding: 10px 20px;		/*上下、左右への余白*/
 	background: #fff;	/*背景色（古いブラウザ用）*/
 	background: linear-gradient(#fff, #ccc);	/*背景グラデーション*/
 	border-radius: 50px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
-	color: #000;			/*文字色*/
+	color: #3d3d3d;			/*文字色*/
 }
 /*コンテンツのh3タグの設定*/
 #contents h3 {
@@ -476,7 +476,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	transform: rotate(-45deg) !important;
 }
 .menu_table th{
-	width: 400px;
+	width: 350px;
 	text-align: left;
 }
 .menu_table td{
@@ -486,4 +486,23 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 .category{
 	font-size: 16px;
+}
+
+.annotation {
+	color: #9f9f9f;
+}
+
+.tableCharge {
+	margin-left: 10px;
+	border-collapse: collapse;
+}
+.tableCharge th {
+	width: 200px;
+	text-align: left;
+}
+
+.tableCharge td {
+	width: 150px;
+	text-align: left;
+	vertical-align: top;
 }
