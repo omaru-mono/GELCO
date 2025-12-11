@@ -479,10 +479,26 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	width: 350px;
 	text-align: left;
 }
-.menu_table td{
-	width: 150px;
-	text-align:left;
-	vertical-align:top;
+.menu_table td {
+	width: 100px;
+	vertical-align: top;
+	text-align: right;
+	padding-left: 10px;
+}
+/* 価格記号（&yen;）を囲む要素のスタイル */
+.menu_table .currency {
+	display: inline-block;
+	width: 10px; /* 通貨記号の幅を固定 */
+	text-align: right; /* 通貨記号自体を左寄せ */
+	margin-right: 5px; /* 数字との間にスペースを作成 */
+	margin-right: 5px;
+}
+
+/* 価格（数字）を囲む要素のスタイル */
+.menu_table .price {
+	display: inline-block;
+	width: 40px; /* 数字の桁を揃えるために、数字部分の幅を固定 */
+	text-align: right; /* 数字自体は右寄せ */
 }
 .category{
 	font-size: 16px;
