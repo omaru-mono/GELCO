@@ -437,7 +437,8 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 	display: none;
 }
 .Label {		/*タイトル*/
-	padding: 3px	;
+	width: 600px;
+	padding: 3px;
 	display: block;
 	color: #fff;
 	background:#414546;
