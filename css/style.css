@@ -469,22 +469,30 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 }
 .toggle:checked + .Label + .content {	/*開閉時*/
 	height: auto;
-	padding:20px ;
+	padding: 10px 3px ;
 	transition: all .3s;
 }
 .toggle:checked + .Label::before {
 	transform: rotate(-45deg) !important;
 }
-.menu_table th{
+
+.menu_table th {
 	width: 350px;
 	text-align: left;
 }
 .menu_table td {
-	width: 100px;
+	width: 70px;
 	vertical-align: top;
 	text-align: right;
-	padding-left: 10px;
+	padding-left: 5px;
 }
+
+.menu_table .note {
+	width: 5px;
+	text-align: left;
+	padding-left: 0; /* paddingも調整しないと、5pxの幅は実現しづらい */
+}
+
 /* 価格記号（&yen;）を囲む要素のスタイル */
 .menu_table .currency {
 	display: inline-block;
@@ -497,11 +505,16 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 /* 価格（数字）を囲む要素のスタイル */
 .menu_table .price {
 	display: inline-block;
-	width: 40px; /* 数字の桁を揃えるために、数字部分の幅を固定 */
+	width: 45px; /* 数字の桁を揃えるために、数字部分の幅を固定 */
 	text-align: right; /* 数字自体は右寄せ */
 }
+
 .category{
 	font-size: 16px;
+}
+
+.category_spirits{
+	color: #909090
 }
 
 .annotation {

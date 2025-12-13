@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 114,
+          "DockedWidth": 130,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "css\\style.css",
               "ToolTip": "C:\\workspace\\GELCO\\css\\style.css",
               "RelativeToolTip": "css\\style.css",
-              "ViewState": "AgIAANMBAAAAAAAAAAAUwPQBAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-12-10T16:10:41.457Z",
               "EditorCaption": ""
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "DockedWidth": 286,
+          "DockedWidth": 270,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -47,7 +47,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\workspace\\GELCO\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAAIoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEwBAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-12-10T15:50:09.014Z",
               "EditorCaption": ""
